@@ -2,7 +2,11 @@
 title: '202312'
 author: "Toshihide Imaruoka"
 date: "2023-12-19"
-output: html_document
+output:
+  rmdformats::downcute:
+    highlight: kate
+    css: mycss.css
+    dev: "ragg_png"
 ---
 # 3-7: 正規線形モデル
 ## 2. モデルの構造
